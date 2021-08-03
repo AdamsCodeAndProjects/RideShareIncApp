@@ -14,6 +14,9 @@
 		666D5ADF26AF009000CA4AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666D5ADE26AF009000CA4AF3 /* Assets.xcassets */; };
 		666D5AE226AF009000CA4AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666D5AE026AF009000CA4AF3 /* LaunchScreen.storyboard */; };
 		666D5AEC26AF0AD800CA4AF3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 666D5AEB26AF0AD800CA4AF3 /* GoogleService-Info.plist */; };
+		666D5AEE26AF1E9800CA4AF3 /* RiderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666D5AED26AF1E9800CA4AF3 /* RiderViewController.swift */; };
+		666D5AF026B1A3DE00CA4AF3 /* DriverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666D5AEF26B1A3DE00CA4AF3 /* DriverTableViewController.swift */; };
+		666D5AF226B6E75100CA4AF3 /* AcceptRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666D5AF126B6E75100CA4AF3 /* AcceptRequestViewController.swift */; };
 		FBC299223B6E9DF9AEC8BE9E /* Pods_UberApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864C5585C65BD177F796D627 /* Pods_UberApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,9 @@
 		666D5AE126AF009000CA4AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		666D5AE326AF009000CA4AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		666D5AEB26AF0AD800CA4AF3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		666D5AED26AF1E9800CA4AF3 /* RiderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderViewController.swift; sourceTree = "<group>"; };
+		666D5AEF26B1A3DE00CA4AF3 /* DriverTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverTableViewController.swift; sourceTree = "<group>"; };
+		666D5AF126B6E75100CA4AF3 /* AcceptRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptRequestViewController.swift; sourceTree = "<group>"; };
 		6B9E55794CEEBA302A667BCB /* Pods-UberApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberApp.debug.xcconfig"; path = "Target Support Files/Pods-UberApp/Pods-UberApp.debug.xcconfig"; sourceTree = "<group>"; };
 		864C5585C65BD177F796D627 /* Pods_UberApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UberApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83B5443B45F758374A3F3AA /* Pods-UberApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberApp.release.xcconfig"; path = "Target Support Files/Pods-UberApp/Pods-UberApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +74,9 @@
 				666D5AD526AF008B00CA4AF3 /* AppDelegate.swift */,
 				666D5AD726AF008B00CA4AF3 /* SceneDelegate.swift */,
 				666D5AD926AF008B00CA4AF3 /* ViewController.swift */,
+				666D5AEF26B1A3DE00CA4AF3 /* DriverTableViewController.swift */,
+				666D5AED26AF1E9800CA4AF3 /* RiderViewController.swift */,
+				666D5AF126B6E75100CA4AF3 /* AcceptRequestViewController.swift */,
 				666D5ADB26AF008B00CA4AF3 /* Main.storyboard */,
 				666D5ADE26AF009000CA4AF3 /* Assets.xcassets */,
 				666D5AE026AF009000CA4AF3 /* LaunchScreen.storyboard */,
@@ -210,7 +219,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				666D5ADA26AF008B00CA4AF3 /* ViewController.swift in Sources */,
+				666D5AEE26AF1E9800CA4AF3 /* RiderViewController.swift in Sources */,
+				666D5AF026B1A3DE00CA4AF3 /* DriverTableViewController.swift in Sources */,
 				666D5AD626AF008B00CA4AF3 /* AppDelegate.swift in Sources */,
+				666D5AF226B6E75100CA4AF3 /* AcceptRequestViewController.swift in Sources */,
 				666D5AD826AF008B00CA4AF3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
